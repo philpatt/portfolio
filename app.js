@@ -11,4 +11,4 @@ app.get('/', function (req, res) {
     res.render('index.ejs', {name: 'Phil Patterson'} )
 });
 
-app.listen(3000)
+app.listen(3000);
