@@ -1,6 +1,6 @@
 
 
 
-(function(){
-    console.log('poop')
-})();
+(function () {
+    console.log('hello')
+})()
