@@ -1,19 +1,26 @@
 class Star {
-    constructor(height, width, speed) {
-        this.height = height;
-        this.width = width;
-        this.speed = speed;
+    constructor(x, y, size, velocity, color) {
+        this.x = x;
+        this.y = y;
+        this.size = size;
+        this.velocity = velocity;
+        this.color = color;
     }
 
-    //Getter
-    get area() {
-        return this.calcArea();
-    }
-
-    //Method
+    // Methods
     calcArea() {
         return this.height * this.width;
     }
+
 };
 
-module.exports = Star;
+
+/**
+ * To DO:
+ * 
+ * create background star class with proper properities/getters/methods
+ * 
+ * 
+ * "draw" stars - canvas npm?
+ * 
+ */
