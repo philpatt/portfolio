@@ -34,10 +34,10 @@ addEventListener('click', function(click){
 });
 
 // Star Class
-function Star(x, y, speed, radius, color){
+function Star(x, y, z, radius, color){
     this.x = x;
     this.y = y;
-    this.speed = speed;
+    this.z = z;
     this.radius = radius;
     this.color = color;
 
