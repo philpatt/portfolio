@@ -11,7 +11,7 @@ var stars = [];
 router.get('/', function(req, res){
     var star = new Star(10,10);
     console.log(star.area)
-    res.render('home.ejs', {name : 'Phil'});
+    res.render('home', {name : 'Phil'});
 });
 
 
